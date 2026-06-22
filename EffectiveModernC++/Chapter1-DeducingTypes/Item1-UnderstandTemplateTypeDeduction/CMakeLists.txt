@@ -1,1 +1,1 @@
-add_executable(pointer-or-reference.cpp)
+add_executable(pointer-or-reference pointer-or-reference.cpp)
