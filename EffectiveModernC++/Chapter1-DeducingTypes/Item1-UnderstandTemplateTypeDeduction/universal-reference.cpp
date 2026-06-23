@@ -2,7 +2,8 @@
 #include <utility>
 
 /*
- * 1. If expr is lvalue, both ParamType and T are deduced to be lvalue references.
+ * 1. If expr is lvalue, both ParamType and T are deduced to be lvalue
+ * references.
  * 2. If expr is rvalue, the "normal" (Case 1) rules apply.
  */
 
@@ -31,9 +32,9 @@ int main() {
     // Same as in the normal scenario,
     // except we now have rvalue references (&&).
     // std::move is like a cast to rvalue.
-    f(1); // ParamType is int&&, T is int
-    f(std::move(cx)); // ParamType is const int&&, T is const int
-    f(std::move(crx)); // ParamType is const int&&, T is const int
+    f(1);               // ParamType is int&&, T is int
+    f(std::move(cx));   // ParamType is const int&&, T is const int
+    f(std::move(crx));  // ParamType is const int&&, T is const int
 
     return 0;
 }
