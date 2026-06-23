@@ -4,16 +4,13 @@
  */
 
 template <typename T>
-class TypeDeducer;
+void f(T& p) {}
 
 template <typename T>
-void f(T& p) {};
+void cf(const T& p) {}
 
 template <typename T>
-void cf(const T& p) {};
-
-template <typename T>
-void g(T* p) {};
+void g(T* p) {}
 
 int main() {
     int x = 1;
