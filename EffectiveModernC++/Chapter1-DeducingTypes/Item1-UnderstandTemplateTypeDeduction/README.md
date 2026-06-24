@@ -13,3 +13,5 @@ There are three cases:
 1. `ParamType` is a pointer or a reference, but not universal reference.
 2. `ParamType` is a universal reference.
 3. `ParamType` is neither a pointer nor a reference.
+
+Arrays and functions have interesting behavior in certain situations.
