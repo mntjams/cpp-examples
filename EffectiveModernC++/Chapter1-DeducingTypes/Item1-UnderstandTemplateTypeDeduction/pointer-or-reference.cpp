@@ -37,6 +37,7 @@ int main() {
 
     g(cpx);  // ParamType is const int*, T is int
 
-    // With ParamType const int*, it works as expected
+    // With ParamType const int*, it works analogously
+
     return 0;
 };
