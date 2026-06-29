@@ -17,3 +17,5 @@ decltype(auto) get_some_val() {
 // This is because wrapping a name in () creates an lvalue expression.
 // The decltype rules for expressions state that the value category is also
 // taken into account.
+
+int main() { return 0; }

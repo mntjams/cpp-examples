@@ -20,7 +20,7 @@ int main() {
     auto&& uref3 = 1;
 
     // All the array/function situations also apply
-    const char name[] = "Alyosha Karamazor";
+    const char name[] = "Alyosha Karamazov";
     auto arr1 = name;
     auto& arr2 = name;
 

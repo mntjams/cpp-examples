@@ -1,1 +1,4 @@
 add_subdirectory(Item1-UnderstandTemplateTypeDeduction)
+add_subdirectory(Item2-UnderstandAutoTypeDeduction)
+add_subdirectory(Item3-UnderstandDecltype)
+add_subdirectory(Item4-KnowHowToViewDeducedTypes)

@@ -47,3 +47,5 @@ decltype(auto) auth_and_access_template_fixed(Container& c, Index i) {
 
 // decltype(auto) can also be used when declaring variables to get the correct
 // value category of the type.
+
+int main() { return 0; }
