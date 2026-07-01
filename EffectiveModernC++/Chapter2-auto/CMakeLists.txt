@@ -1,1 +1,2 @@
-add_subdirectory(Item1-PrefereAutoToExplicitTypeDeclarations)
+add_subdirectory(Item5-PrefereAutoToExplicitTypeDeclarations)
+add_subdirectory(Item6-UseTheExplicitlyTypedInitializerIdiomWhenAutoDeducesUndesiredTypes)
